@@ -188,3 +188,11 @@ form.addEventListener('input', debounce(function (e) {
             break;
     }
 }));
+
+// let i = 0;
+// let numbers = document.getElementById("numbers")
+// function display(){
+//     if(i >= 0){
+//         numbers.innerText = i++;
+//     }
+// }

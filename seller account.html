@@ -25,7 +25,26 @@
                 </ul>
                 </div>
                 <div class="nav-icons">
-                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                    <div class="dropdown">
+                        <i class="fa-solid fa-user"></i>
+                    <div class="user-con">
+                        <div class="seller">
+                            <img src="./Img/grace.png" alt="grace">
+                            <p>Grace <br> Seller</p>
+                        </div><hr>
+                        <ul>
+                            <li><a href="#">View My Shop</a></li>
+                            <li><a href="#">My Posts</a></li>
+                            <li><a href="#">Earnins</a></li>
+                            <li><a href="#">Manage Plan</a></li>
+                            <li><a href="#">Oders</a></li>
+                            <hr>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
                     <a href="cart2.html"><i class="fa-solid fa-shopping-cart"></i>
                       <span class="notification">0</span>
                     </a>
@@ -52,53 +71,29 @@
             </ul>
             </div>
         </div>
-    </div>
-
-    <section class="signUp">
-        <h2>LOGIN</h2>
-        <hr>
-         <form id="signup" class="form">
-            <div class="form-field">
-                <!-- <label for="username">Username:</label> -->
-                <input type="text" name="username" id="username" placeholder="Username" autocomplete="off">
-                <small></small>
-            </div>
-    
-            <div class="form-field">
-                <!-- <label for="password">Password:</label> -->
-        <i class="fa-regular fa-eye" id="togglePassword" style="float:right; margin: 15px 0 -45px 0;"></i>
-                <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
-                      <small></small>
-            </div>
-            <div class="flex">
-                <p><input type="checkbox" /> Keep me Logged me</p>
-                <p><a href="#">Forgot Password?</a></p>
-               </div>
-               <div class="form-field sign-up-btn-con">
-                <button type="submit" class="sign-up-btn">Sign Up</button>
-                </div>
-        </form>
-             <p> By signing up you accept the <a href="#">terms of service</a> and 
-            <a href="#"> privacy policy</a></p><br>
-          <div class="form-field sign-up-btn-con">
-            <p>Or Sign Up with</p>
-            <div class="sign-up-img">
-            <img src="./Img/Google.png" alt="google">
-            <img src="./Img/Facebook.png" alt="Facebook">
         </div>
-        <p>Don't have an account? <a href="Sign Up.html">Sign Up</a></p>
-          </div>
-    </section><br>
 
-
-
-    <!-- <button onclick="display()">Counter button</button>
-    <p id="numbers"></p><br><br> -->
+       <section class="account">
+        <img src="./Img/grace.png" alt="grace">
+        <h4>Grace</h4>
+        <p>You joined Vendor's Hub on February 6, 2024</p>
+        <div class="account-col">
+            <div class="account-row">
+                <p>0</p>
+                <p>Followers</p>
+            </div>
+            <div class="account-row">
+                <p>0</p>
+                <p>Following</p>
+            </div>
+            <div class="account-row">
+                <p>0</p>
+                <p>Products</p>
+            </div>
+        </div>
+        <a href="#"><button class="trans-btn">Edit</button></a>
+       </section>
     
-
-
-
-<a style="font-size: 40px;" href="./choose plan.html">Next</a>
     <footer class="footer">
         <div class="footer-col">
         <div class="footer-row">
@@ -152,7 +147,7 @@
 </div>
     </footer>
     
-    <script src="./Js/login.js"></script>
+
     <script src="./Js/script.js"></script>
 </body>
 </html>
