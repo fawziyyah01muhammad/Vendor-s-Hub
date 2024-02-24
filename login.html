@@ -8,31 +8,31 @@
     <title>Vendors Hub</title>
 </head>
 <body>
-    <div class="whole-container">
+    <section class="whole-container">
         <nav id="main-nav-wrap">
             <label>
-            <h1>Vendor's <br> Hub</h1>
+            <h1>VENDOR'S <br> HUB</h1>
             </label>
             <div class="nav-links" Id="checkmenu">
-                <ul>
+                <ul class="main-navigation">
                         <i class="fa fa-times" onclick ="hideMenu()"></i>          
-                    <li class="current"><a href="./index.html" class="smoothscroll">Home</a></li>
-                    <li><a href="#about" class="smoothscroll">About</a></li>
-                    <li><a href="#services" class="smoothscroll">Contact</a></li>
-                    <li><a href="#gallery" class="smoothscroll">Blog</a></li>
-                    <li><a href="#contact" class="smoothscroll">Shop</a></li>
-                    <li><a href="#contact" class="smoothscroll">Register</a></li>
+                    <li><a class="smoothscroll"  href="./index.html">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="">About</a></li>
+                    <li><a class="smoothscroll" href="#blog" title="">Blog</a></li>
+                    <li><a class="smoothscroll" href="#shop" title="">Shop</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+                    <li><a  href="./Sign Up.html">Register</a></li>
                 </ul>
                 </div>
                 <div class="nav-icons">
-                    <a href=""><i class="fa-solid fa-heart"></i></a>
                     <a href="cart2.html"><i class="fa-solid fa-shopping-cart"></i>
                       <span class="notification">0</span>
                     </a>
+                   
                   </div>
             <i class="fa fa-bars" onclick ="showMenu()"></i>
         </nav>
-
+    </section>
         <div class="con">
             <input placeholder="Search">
             <button type="submit" class="col-button"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -40,19 +40,36 @@
 
         <div class="product-pages">
             <div class="nav-links">
-                <ul>          
-                <li class="current"><a href="./choose plan.html" class="smoothscroll">Juwelry</a></li>
-                <li><a href="./index.html" class="smoothscroll">Home</a></li>
-                <li><a href="./Succes.html" class="smoothscroll">Gifts</a></li>
-                <li><a href="#gallery" class="smoothscroll">Clothing</a></li>
-                <li><a href="#contact" class="smoothscroll">Art</a></li>
-                <li><a href="#contact" class="smoothscroll">Funiture</a></li>
-                <li><a href="#contact" class="smoothscroll">Cards and Stationery</a></li>
-                <li><a href="#contact" class="smoothscroll">Customized</a></li>
+                <ul>   
+                <li><a href="./choose plan.html">Choose Plan</a></li>      
+                <li><a href="seller account.html">Account</a></li> 
+                <li><a href="./profile.html">profile</a></li>
+                <li><a href="./shop.html">Our Sellers</a></li>
+                <div class="dropdown">
+                    <li><a href="#contact" class="smoothscroll">Services</a></li>
+                <div class="user-con">
+                    <ul>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Auto Repairs</a></li>
+                        <li><a href="#">Beutician</a></li>
+                        <li><a href="#">Elcectrical Services</a></li>
+                        <li><a href="#">Generator Services</a></li>
+                        <li><a href="#">Movers</a></li>
+                        <li><a href="#">Painting</a></li>
+                        <li><a href="#">Plumbing</a></li>
+                        <li><a href="#">Weldering Services</a></li>
+                        <li><a href="#">Hairstyle</a></li>
+                        <li><a href="#">Gadget Repairs</a></li>
+                    </ul>
+                </div>
+            </div>
+                <li><a href="./View Products.html">Products</a></li>
+                <li><a href="./payment.html">Payment</a></li>
+                <li><a href="./checkout.html">Checkout</a></li>
+                <!-- <li><a href="#">Customized</a></li> -->
             </ul>
             </div>
         </div>
-    </div>
 
     <section class="signUp">
         <h2>LOGIN</h2>
@@ -75,7 +92,7 @@
                 <p><a href="#">Forgot Password?</a></p>
                </div>
                <div class="form-field sign-up-btn-con">
-                <button type="submit" class="sign-up-btn">Sign Up</button>
+               <a href="./choose plan.html"><button type="submit" class="sign-up-btn">Login</button></a> 
                 </div>
         </form>
              <p> By signing up you accept the <a href="#">terms of service</a> and 
@@ -88,17 +105,9 @@
         </div>
         <p>Don't have an account? <a href="Sign Up.html">Sign Up</a></p>
           </div>
-    </section><br>
+    </section>
 
-
-
-    <!-- <button onclick="display()">Counter button</button>
-    <p id="numbers"></p><br><br> -->
     
-
-
-
-<a style="font-size: 40px;" href="./choose plan.html">Next</a>
     <footer class="footer">
         <div class="footer-col">
         <div class="footer-row">
